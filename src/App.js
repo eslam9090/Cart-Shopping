@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./Components/Nav/Navbar";
@@ -10,18 +11,20 @@ function App() {
   const isOpen = useSelector((state) => state.cart.isOpen);
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        <NavBar />
-        <Cart />
-        <Container className="">
-          <Routes>
-            <Route path="/" element={<Products />} />
-            {/* <Route path="/cart" element={{} />*/}
-          </Routes>
-        </Container>
-      </div>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <div className="App">
+          <NavBar />
+          <Cart />
+          <Container className="">
+            <Routes>
+              <Route path="/" element={<Products />} />
+              {/* <Route path="/cart" element={{} />*/}
+            </Routes>
+          </Container>
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 
