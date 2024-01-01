@@ -1,0 +1,33 @@
+.container{
+display: flex ; 
+justify-content: space-between ;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(207, 34, 34) !important;
+}
+.btn_style{
+    position: relative;
+}
+
+.btn_style div {
+    position: absolute;
+    top: -1px;
+    right: 12px;
+    width: 15px;
+    height: 15px;
+    font-size: 11.5px;
+    border-radius: 50%;
+    background-color:#6C757D;
+    color: #ffffff;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 18px !important;
+    font-weight: 500 !important; 
+}
+.mt_css{
+    margin-top: 59px;
+    z-index: 300 !important;
+}

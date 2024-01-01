@@ -1,0 +1,26 @@
+.img-css {
+  height: 250px;
+  object-fit: contain;
+}
+.marg {
+  margin: 1.5rem 0 4rem 0 !important;
+  text-align: center;
+}
+.loadng {
+  color: #5c636a;
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.Cat_Style {
+  display: inline-block;
+  margin-top: 100px;
+  text-align: start !important;
+}
+.Cat_Style Button {
+  text-align: start !important;
+  margin-left: 10px;
+}
